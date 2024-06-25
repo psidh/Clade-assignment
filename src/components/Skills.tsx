@@ -5,13 +5,13 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="py-[32px] pl-[100px] flex items-start justify-start space-x-[72px] border-b-[2px]">
+    <div className="py-[24px] pl-[80px] flex items-start justify-start space-x-[98px] border-b-[2px] text-sm">
       <div>
         <h1 className="text-[#6E6D6D]">Skills Required</h1>
         <div className="flex flex-col items-start mt-2 justify-between space-y-[10px]">
-          <Image src={"/home/figma.svg"} width={60} height={60} alt="figma" />
-          <Image src={"/home/adobe.svg"} width={130} height={130} alt="adobe" />
-          <Image src={"/home/xadobe.svg"} width={90} height={90} alt="xadobe" />
+          <Image src={"/home/figma.svg"} width={50} height={50} alt="figma" />
+          <Image src={"/home/adobe.svg"} width={100} height={100} alt="adobe" />
+          <Image src={"/home/xadobe.svg"} width={60} height={60} alt="xadobe" />
         </div>
       </div>
       <div>

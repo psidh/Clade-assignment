@@ -7,7 +7,7 @@ const general_sans_medium = localFont({
 export default function About() {
   return (
     <div
-      className={`py-[32px] pl-[100px] border-b-[2px] ${general_sans_medium.className} font-sm`}
+      className={`py-[28px] pl-[80px] border-b-[2px] ${general_sans_medium.className} text-sm`}
     >
       <h1 className="text-[#6E6D6D] mb-2">About the Job</h1>
       <ol>

@@ -2,7 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.logo {
+  @apply py-[17px] px-[26.5px] bg-[#E7E7E7] text-[#DC4A2D] my-[24px] mx-[40px] inline-block;
+}
 li {
-    @apply my-1
+  @apply my-[2px];
+}
+
+.heading {
+  @apply py-[12px] pl-[80px] flex items-center justify-start space-x-[75px] border-b-[2px];
+}
+
+.heading p {
+  @apply text-[#888888] cursor-pointer;
+}
+
+.company {
+  @apply pl-[80px] py-[36px] text-sm;
+}
+
+.company .details {
+  @apply flex flex-col justify-between mb-[16px];
+}
+
+.company .details h2 {
+  @apply text-[#6E6D6D];
+}
+
+.company .details h3 {
+  @apply font-medium;
+}
+
+.navbar-tab {
+  @apply h-[54px] w-[32.33%] flex items-center justify-evenly border-[1px] border-[#D1D1D1] rounded-full p-[8px];
+}
+
+.job {
+  @apply py-[8px] px-[28px] m-8 flex items-center justify-evenly space-x-[8px] bg-[#DC4A2D] rounded-full;
+}
+
+.navbar-tab .messages {
+  @apply py-[8px] px-[15px] m-8 flex items-center justify-evenly space-x-[8px] text-[#B0B0B0];
+}
+
+.navbar-tab .payments {
+  @apply py-[16px] px-[15px] m-8 flex items-center justify-evenly space-x-[8px] text-[#B0B0B0];
+}
+
+.navbar-end {
+  @apply flex items-center justify-evenly py-[14px] space-x-[12px] px-[24px];
+}
+
+.sidebar {
+  @apply py-[32px] px-[25px] bg-[#FCFCFC] border-l-[2px] h-full text-sm;
+}
+
+.sidebar .details {
+  @apply flex justify-between p-[12px] items-center m-[16px] border-b-[1px];
+}
+
+.sidebar .details .item {
+  @apply space-x-[6px] flex justify-center items-center;
+}
+
+.sidebar .details p {
+  @apply text-[#3D3D3D] font-extrabold;
+}
+
+.delete-button {
+  @apply bg-[#FED3CA] space-x-2 text-sm text-[#DC4A2D] border-[1px] border-[#DC4A2D] rounded-lg flex justify-center items-center py-[10px]  w-full cursor-pointer;
+}
+
+.edit-button {
+  @apply bg-[#DC4A2D] text-white space-x-2 text-sm border-[1px] border-[#FED3CA] rounded-lg flex justify-center items-center py-[10px]  w-full cursor-pointer;
 }
